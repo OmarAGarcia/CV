@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: 'Krona One', sans-serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.borde {
+    border: 1px solid black;
+}
+
+.menuu {
+    background-color: blanchedalmond;
+}
+
+.cuerpo {
+    background-color: coral;
+}
+
+.imagen {
+    width: 40%;
+}
+
+.letras {
+    color: gray;
+}
+
+.sombra {
+    box-shadow: 0px -4px 12px -7px rgba(0, 0, 0, 0.77);
+}
+
+.icono-tamaño {
+    font-size: 50px;
+    margin-right: 1.7rem;
+}
+
+.icono-tamaño1 {
+    font-size: 50px;
+    margin-right: 0rem;
+}
+
+.margen-icono {
+    margin-top: 13rem;
+}
+
+.margen-resumen {
+    margin-top: 6rem;
+}
+
+.separacion {
+    min-height: 100vh;
+}
+
+.sombra-cards {
+    box-shadow: 1px 6px 11px 6px rgba(230, 230, 230, 0.74);
+}
+
+
+/** Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .imagen {
+        width: 100%
+    }
+    .responsivo {
+        /* margin-bottom: 7rem; */
+        margin-top: 5rem;
+    }
+    .escritorio {
+        display: none;
+    }
+    .margen-icono {
+        margin-top: 5rem;
+    }
+}
+
+
+/** Small devices (landscape phones, less than 768px) */
+
+@media (min-width: 768px) {
+    .responsivo {
+        /* margin-bottom: 5rem; */
+        margin-top: 14rem;
+    }
+}
+
+
+/** Medium devices (tablets, less than 992px) */
+
+@media (min-width: 991.98px) {
+    .responsivo {
+        /*  margin-bottom: 11rem; */
+        margin-top: 0rem;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .escritorio {
+        display: block;
+    }
+    .letra-escritorio {
+        font-size: 1.3rem;
+    }
+}
+
+
+/** Large devices (desktops, less than 1200px) */
+
+@media (min-width: 1199.98px) {}
+
+
+/* // Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width */
+
+.color {
+    color: red;
+}
+
+.color1 {
+    color: #6c757d;
+}
